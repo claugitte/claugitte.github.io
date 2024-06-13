@@ -1,0 +1,213 @@
+*{
+    margin:0px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0 3%;
+}
+
+header {
+    padding: 10px 0;
+    margin-top: 05px;
+    margin-bottom:30px ;
+}
+
+.en-tete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 100px;
+    margin-right: 60px;
+}
+
+.en-tete .left-side {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.en-tete form {
+    display: flex;
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50px;
+    padding: 5px 10px;
+    
+}
+
+.en-tete form input {
+    border: none;
+    background-color: #ddd;
+    border-radius: 20px  0  0 20px;
+}
+
+form button{
+    border: none;
+    background-color: #ddd; 
+    
+}
+
+
+
+.taille-icone{
+    width: 30px;
+}
+.taille-icone2{
+    width: 12px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.faible-opacite{
+    opacity:0.2;
+}
+
+
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.right-side a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+
+}
+
+#account{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+#account select{
+    border: none;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid  rgb(185, 184, 184);
+    
+}
+nav div:hover{
+    border-bottom: 3px solid black ;
+    transition-property: border;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-delay: 0.5s;
+}
+
+nav img{
+    display: block;
+    margin: 25px 5px 10px 0px ;
+    
+    
+}
+
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid transparent;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+main{
+    display: block;
+    justify-content: space-between;
+}
+
+.main-top-side{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.taile-affiche{
+    width: 400px;
+    height: 225px;
+}
+/*partie facebok*/
+
+.Facebook-bottom-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    
+}
+
+.Facebook-bottom-top div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.description p {
+    
+  margin-bottom: 15px;  
+}
+
+.main-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maim-img1-taille {
+    width: 100%;
+}
+
+.bulle {
+    position: fixed;
+    width: 64px;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
